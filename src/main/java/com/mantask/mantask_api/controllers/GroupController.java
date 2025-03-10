@@ -26,12 +26,12 @@ public class GroupController {
 	}
 
 	@GetMapping("/{id}")
-	public Group findById(@PathVariable("id") int id) {
+	public Group findById(@PathVariable("id") long id) {
 		return repository.findById(id);
 	}
 
 	@GetMapping("/{id}/projects")
-	public Set<Project> findProjectsByGroup(@PathVariable("id") int id) {
+	public Set<Project> findProjectsByGroup(@PathVariable("id") long id) {
 		Group group = repository.findById(id);
 		return group.getProjects();
 	}
