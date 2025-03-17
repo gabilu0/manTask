@@ -1,7 +1,6 @@
 package com.mantask.mantask_api.entities;
 
 import java.time.LocalDate;
-import java.util.List;
 import java.util.Set;
 
 import com.mantask.mantask_api.entities.enums.StatusTask;

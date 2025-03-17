@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.mantask.mantask_api.entities.Owner;
 import com.mantask.mantask_api.entities.Project;
 import com.mantask.mantask_api.repositories.ProjectRepository;
 

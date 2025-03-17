@@ -1,12 +1,13 @@
 package com.mantask.mantask_api.entities.projections;
 
-public interface UserProjection {
+public interface UserGroupProjection {
 
 	public Long getId();
 
 	public String getName();
 
-	public String getSurname();
+	public String getGoal();
 
-	public String getEmail();
+	public String getRole();
+
 }
